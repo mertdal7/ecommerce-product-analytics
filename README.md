@@ -6,8 +6,8 @@ Product analytics project analyzing 177M behavioral events from a multi-category
 
 ## Dashboard Preview
 
-![Page 1 — Overview & Funnel](dashboard/screenshots/page1_overview.png)
-![Page 2 — Retention & Products](dashboard/screenshots/page2_retention.png)
+![Page 1 — Overview & Funnel](dashboard/images/page1_overview.png)
+![Page 2 — Retention & Products](dashboard/images/page2_retention.png)
 
 ---
 
@@ -172,4 +172,4 @@ Real behavioral event data from a large multi-category eCommerce platform, provi
 
 ## Author
 
-Mert Dal — Data / Product Analyst
+Mert Dal
