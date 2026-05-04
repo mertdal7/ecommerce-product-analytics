@@ -6,8 +6,8 @@ Product analytics project analyzing 177M behavioral events from a multi-category
 
 ## Dashboard Preview
 
-![Page 1 — Overview & Funnel](dashboard/images/page1_overview.png)
-![Page 2 — Retention & Products](dashboard/images/page2_retention.png)
+![Page 1 — Overview & Funnel](dashboard/images/Page_1.png)
+![Page 2 — Retention & Products](dashboard/images/Page_2.png)
 
 ---
 
