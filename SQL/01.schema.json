@@ -1,56 +1,11 @@
 [
-  {
-    "name": "event_time",
-    "type": "TIMESTAMP",
-    "mode": "REQUIRED",
-    "description": "Exact timestamp of the event in UTC. Backbone of all time-based analysis. REQUIRED — rows missing this field are rejected at load time."
-  },
-  {
-    "name": "event_type",
-    "type": "STRING",
-    "mode": "REQUIRED",
-    "description": "User action type. Only 3 values exist in this dataset: view, cart, purchase. REQUIRED — rows missing this field are rejected at load time."
-  },
-  {
-    "name": "product_id",
-    "type": "STRING",
-    "mode": "NULLABLE",
-    "description": "Unique product identifier. Typed as STRING rather than INTEGER — identifiers are never used in arithmetic and STRING prevents precision loss for large numeric IDs."
-  },
-  {
-    "name": "category_id",
-    "type": "STRING",
-    "mode": "NULLABLE",
-    "description": "Numeric category identifier stored as STRING. Values exceed safe INTEGER range (e.g. 2053013555631882655) — STRING prevents precision loss."
-  },
-  {
-    "name": "category_code",
-    "type": "STRING",
-    "mode": "NULLABLE",
-    "description": "Hierarchical category path separated by dots. Example: electronics.smartphone, appliances.kitchen.washer. 32% of rows are null — filled with unknown in vw_clean_events."
-  },
-  {
-    "name": "brand",
-    "type": "STRING",
-    "mode": "NULLABLE",
-    "description": "Product brand name. 14% of rows are null — filled with unknown in vw_clean_events. Mixed casing normalized to lowercase in vw_clean_events."
-  },
-  {
-    "name": "price",
-    "type": "FLOAT",
-    "mode": "NULLABLE",
-    "description": "Product price at time of event in local currency. Used for revenue calculations, RFM monetary scoring, average order value and price bucket segmentation."
-  },
-  {
-    "name": "user_id",
-    "type": "STRING",
-    "mode": "NULLABLE",
-    "description": "Unique user identifier. Typed as STRING rather than INTEGER — identifiers are never used in arithmetic operations."
-  },
-  {
-    "name": "user_session",
-    "type": "STRING",
-    "mode": "NULLABLE",
-    "description": "UUID-style session identifier grouping events within a single browsing session. Used for session-level deduplication in vw_clean_events."
-  }
+  {"name": "event_time",    "type": "TIMESTAMP", "mode": "REQUIRED"},
+  {"name": "event_type",    "type": "STRING",    "mode": "REQUIRED"},
+  {"name": "product_id",    "type": "STRING",    "mode": "NULLABLE"},
+  {"name": "category_id",   "type": "STRING",    "mode": "NULLABLE"},
+  {"name": "category_code", "type": "STRING",    "mode": "NULLABLE"},
+  {"name": "brand",         "type": "STRING",    "mode": "NULLABLE"},
+  {"name": "price",         "type": "FLOAT",     "mode": "NULLABLE"},
+  {"name": "user_id",       "type": "STRING",    "mode": "NULLABLE"},
+  {"name": "user_session",  "type": "STRING",    "mode": "NULLABLE"}
 ]
