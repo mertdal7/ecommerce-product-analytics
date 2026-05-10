@@ -65,7 +65,6 @@ null_event_time   null_event_type   null_user_id   null_product_id   null_price 
 
 -- 4. Category code structure
 -- Finding: dot-separated hierarchy e.g. electronics.smartphone
--- Justifies SPLIT(category_code, '.') in cleaning script
 SELECT
   category_code,
   COUNT(*) AS occurrences
