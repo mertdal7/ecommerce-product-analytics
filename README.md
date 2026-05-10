@@ -35,7 +35,7 @@ Product analytics project analyzing 177M behavioral events from a multi-category
 - Construction emerged as an unexpected #2 category by both revenue ($218M) and CVR (11.55%), neck-and-neck with electronics — signals a dedicated high-intent buyer segment
 
 **Cohort Retention**
-- November 11th cohort (Singles Day) brought 146K new buyers — nearly double any other week — yet recorded the lowest Week 1 retention at 7.2%, consistent with deal-driven acquisition producing lower long-term loyalty
+- November 11th cohort brought 146K new buyers — nearly double any other week — yet recorded the lowest Week 1 retention at 7.2%, consistent with deal-driven acquisition producing lower long-term loyalty
 - October cohorts show a retention bump at weeks 5–6, coinciding with Black Friday — promotional events successfully reactivated lapsed buyers from previous months
 
 **RFM Segmentation**
