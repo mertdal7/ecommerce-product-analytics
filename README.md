@@ -122,11 +122,7 @@ Cart events contained up to 78 identical rows at the exact same timestamp for th
 
 **Funnel — user-level not event-level**
 
-The funnel counts distinct users at each stage rather than events. A user who views 10 products contributes 1 to the viewer count, not 10. This is the industry standard approach used by tools like Mixpanel and Amplitude and produces meaningful conversion rates.
-
-**Funnel — Q4 overall scope**
-
-Calculating the funnel per month caused cart-to-purchase rates above 100% for October — users who carted in October but purchased in November were counted as October purchasers without being October carters. The funnel was redesigned as a single Q4-wide calculation to avoid cross-month boundary issues.
+The funnel counts distinct users at each stage rather than events. A user who views 10 products contributes 1 to the viewer count, not 10. This is the industry standard approach to produce produce meaningful conversion rates.
 
 **RFM — binary frequency scoring**
 
